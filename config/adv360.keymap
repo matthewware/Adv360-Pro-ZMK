@@ -18,6 +18,9 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+&mt {
+    tapping-term-ms = <220>;
+};
 
 / {
   behaviors {
@@ -31,10 +34,6 @@
         quick_tap_ms = <175>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
-    };
-    
-    &mt {
-        tapping-term-ms = <220>;
     };
         
     td_bs: tap_dance_mod_tap_backspace {
