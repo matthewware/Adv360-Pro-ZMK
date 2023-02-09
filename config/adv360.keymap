@@ -32,6 +32,10 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+    
+    &mt {
+        tapping-term-ms = <220>;
+    };
         
     td_bs: tap_dance_mod_tap_backspace {
         compatible = "zmk,behavior-tap-dance";
@@ -39,6 +43,17 @@
         #binding-cells = <0>;
         tapping-term-ms = <200>;
         bindings = <&mt LEFT_CONTROL BACKSPACE>, <&kp BACKSPACE>;
+    };
+    
+    gqt: global-quick-tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "GLOBAL_QUICK_TAP";
+        #binding-cells = <2>;
+        flavor = "tap-preferred";
+        tapping-term-ms = <200>;
+        quick-tap-ms = <125>;
+        global-quick-tap;
+        bindings = <&kp>, <&kp>;
     };
    };
 
