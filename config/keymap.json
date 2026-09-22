@@ -6,8 +6,7 @@
     "base",
     "keypad",
     "fn",
-    "mod",
-    "vim"
+    "mod"
   ],
   "layers": [
     [
@@ -15,7 +14,7 @@
                 "&kp TAB",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",  "&kp T",                                "&none",                                                                                    "&none",  "&kp Y",    "&kp U",     "&kp I",    "&kp O",    "&kp P",  "&kp BSLH",
        "&mt LCTRL ESCAPE",     "&kp A",    "&kp S",    "&kp D",     "&kp F",  "&kp G",                                "&mo 1",             "&mo 4", "&kp LALT",                      "&kp LGUI", "&kp RCTRL",     "&none",  "&kp H",    "&kp J",     "&kp K",    "&kp L", "&kp SEMI",   "&kp SQT",
               "&kp LSHFT",     "&kp Z",    "&kp X",    "&kp C",     "&kp V",  "&kp B",                                "&none",             "&none", "&kp HOME",  "&none",  "&none", "&kp PG_UP",     "&none",     "&none",  "&kp N",    "&kp M", "&kp COMMA",  "&kp DOT", "&kp FSLH", "&kp RSHFT",
-                  "&kp GLOBE", "&kp GRAVE", "&kp CAPS", "&kp LEFT", "&kp RIGHT",                     "&mt LEFT_CONTROL BACKSPACE", "&mt LEFT_META DEL",  "&kp END",                     "&kp PG_DN", "&kp ENTER", "&kp SPACE",           "&kp DOWN",    "&kp UP", "&kp LBKT", "&kp RBKT",     "&mo 2"
+                  "&kp GLOBE", "&kp GRAVE", "&kp CAPS", "&kp LEFT", "&kp RIGHT",                     "&td_bs", "&mt LEFT_META DELETE",  "&kp END",                     "&kp PG_DN", "&mt RIGHT_META ENTER", "&kp SPACE",           "&kp DOWN",    "&kp UP", "&kp LBKT", "&kp RBKT",     "&mo 2"
     ], [
        "&kp EQUAL",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",             "&trans",                                                                            "&mo 3", "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY", "&kp MINUS",
          "&kp TAB",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",  "&kp T",              "&none",                                                                            "&none",  "&kp Y",  "&kp KP_N7",    "&kp KP_N8",     "&kp KP_N9",    "&kp KP_MINUS",  "&kp BSLH",
@@ -31,7 +30,7 @@
     ], [
       "&none ", "&bt BT_SEL 0 ", "&bt BT_SEL 1 ", "&bt BT_SEL 2 ", "&bt BT_SEL 3 ", "&bt BT_SEL 4 ", "&none                                                                                        ", "&trans        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none",
       "&none ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&bootloader                                                                                  ", "&bootloader   ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none",
-      "&none ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none                ", "&none", "&none ", "&bt BT_CLR ", "&none ",                             "&rgb_ug RGB_MEFS_CMD 5 ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none",
+      "&studio_unlock ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none                ", "&none", "&none ", "&bt BT_CLR ", "&none ",                             "&stp STP_BAT ", "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none",
       "&none ", "&none        ", "&none        ", "&none        ", "&macro_ver   ", "&none                                          ", "&none ", "&none ",                                                              "&none        ", "&none        ", "&none        ", "&none        ", "&none        ", "&none",
       "&none ", "&none        ", "&none        ", "&none        ", "&none                                         ", "&none", "&none", "&none ", "&none      ", "&bl BL_TOG ", "&rgb_ug RGB_TOG                                ", "&bl BL_INC   ", "&bl BL_DEC   ", "&none        ", "&none        ", "&none"
     ]
